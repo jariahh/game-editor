@@ -1,0 +1,5 @@
+  <ul>
+    <li *ngFor="let menuItem of topMenu">
+      <a [routerLink]="menuItem.routePath">{{menuItem.title}}</a>
+    </li>
+  </ul>
